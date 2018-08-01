@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image : url(http://gdurl.com/q0i4);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+#selector {
+    cursor: none;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+
+button:hover {
+    background: #338033;
+    cursor: pointer;
+}
+
+button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+input [type = text] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box; 
+    transition: .3s;
+}
+
+input [type = text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+.topRight {
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 15px;
+}
+.topLeft {
+    position: absolute; 
+    top: 5%;
+    left: 3%;
+}
+.youtubeSearch{
+    position: absolute;
+    top:10%;
+    left: 20%;
+}
+.instrumentalType {
+    position: absolute;
+    top: 49%;
+    left: 58%;
+}
