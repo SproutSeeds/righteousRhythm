@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- ~~~~~~~~~~~THIS IS THE RIGHTEOUS RHYTHM KEY WORD GENERATOR, RHYME SCHEME COORDINATOR, AND AI INCUBATOR~~~~~~~~~~~~~~~-->
+<!-- ~~~~~~~~~~~THIS IS THE RIGHTEOUS RHYTHM KEY WORD GENERATOR, RHYME SCHEME COORDINATOR, AND AI INCUBATOR HTML FILE~~~~~~~~~~~~~~~-->
     
 <head>
 
@@ -16,15 +16,6 @@
         <!-- <iframe class = "topLeft" width="200" height="112.5" src="https://www.youtube.com/embed/INCjgr8QQks?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         
         <div id = 'search-container' class = "topLeft" width="200" height="112.5"></div>
-        <!-- Youtube search bar-->
-        <!-- <div class = "youtubeSearch">
-                <form action="http://www.youtube.com/results" method="get" target="_blank" >
-                <input name="search_query" type="text" maxlength="128" />
-                <select name="search_type">
-                </select>
-                <input type="submit" value="Search" />
-                </form> 
-        </div> -->
 
 
         <!-- Instrumental Generator button-->
@@ -40,26 +31,27 @@
 
 
         <select id = "instrumentalType" class = "instrumentalType">
+                <option value=" ">Select an option...</option>
                 <option value="RnB Instrumental">RnB Instrumental</option>
                 <option value="Trap Soul Instrumental">Trap Soul Instrumental</option>
                 <option value="Hip Hop Instrumental">Hip Hop Instrumental</option>
                 <option value="Drake Type Beat"> Random </option>
         </select>
-
-
-
-       <!--~~~~~~~~THIS IS WHERE ALL LINKED JAVASCRIPT files LIVE~~~~~~~~~-->
-       <script src = "https://code.jquery.com/jquery-3.3.1.js"> </script>
-       <script src = "mouseTrail.js"> </script>
-       <script src = "youtubeGenerator.js"> </script>
-       <script src = "https://apis.google.com/js/client.js?onload=googleApiClientReady"> </script>
-       
     
 
     </body>
 
+           <!--~~~~~~~~THIS IS WHERE ALL LINKED JAVASCRIPT files LIVE~~~~~~~~~-->
+           <script src = "https://code.jquery.com/jquery-3.3.1.js"> </script>
+           <script src = "mouseTrail.js"> </script>
+           <script src = "apis.google.com/js/client.js?onload=init"> </script>
+           <script src = "app.js"></script>
+           <script src = "youtubeGenerator.js"> </script>
+           
+          <!-- <script src = "auth.js"></script>-->
+          
 
-</html>
+</html> 
 
    <!-- NOTES 
 
