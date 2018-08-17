@@ -47,7 +47,7 @@ $('#instrumentalType').on('change', function(e){
 // }
 
 // function onYouTubeApiLoad() {
-//   gapi.client.setApiKey('AIzaSyCL4GAeAm8tzBAAQ0f7A4U_7S3lp6wwFxg');
+//   gapi.client.setApiKey('');
 // }
  
 //////////////////This below searches the youtube data API ///////////////
